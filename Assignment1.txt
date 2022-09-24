@@ -1,0 +1,50 @@
+=====================================================================================
+Assignment 1
+=====================================================================================
+1.what is vue js
+
+Vue.js is an open-source front end JavaScript framework for building user interfaces and single-page applications.
+It was created by Evan You, and is maintained by him and the rest of the active core team members.
+Vue.js allows for extending HTML with HTML attributes called directives.
+The directives offer functionality to HTML applications, and come as either built-in or user defined directives.
+--------------------------------------------------------------------------------------------------------------------
+
+2.Why should we Choose vuejs
+
+ Simplicity.
+ Easy to Learn. (learning curve is less steep)
+ Virtual DOM Performance and Rendering.
+ Two-Way Binding.
+ Readability and Single-File Components.
+---------------------------------------------------------------------------------------------------------------
+3.What is Single page apllication
+
+A single-page application is a web application or website that interacts with the user by 
+dynamically rewriting the current web page with new data from the web server without reloading the webpage
+---------------------------------------------------------------------------------------------------------------------
+4.Events- Events are action performed when  any user interaction with a user interface button or 
+a physical keyboard or mouse 
+
+1. v-on:clicks
+2. v-on:submit
+3. v-on:scroll
+4. v-on:keyup
+5. v-on:change
+6. v-on:mouseover
+7. v-on:mouseout
+---------------------------------------------------------------------------
+5.Directives are instruction for VueJS to do things in a certain way.
+
+v-html:Update the element's innerHTML.
+v-for:Render the element or template block multiple times based on the source data.
+v-on:Attach an event listener to the element.
+v-text:Update the element's text content.
+v-model:Create a two-way binding on a form input element or a component.
+v-once:to preserve initial value and it will be only evaluated once
+
+------------------------------------------------------------------------------------------
+
+6.Vue supports two way data binding via the v-model property. In the below example, if you type in the input, Vue will display your changes in the h1 element.
+ Also, if you update value by clicking the "Reset" button, Vue will display the new value in the input and h1 elements
+
+

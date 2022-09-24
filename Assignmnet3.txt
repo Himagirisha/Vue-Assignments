@@ -1,0 +1,20 @@
+1.Props, which stands for properties,
+ enable us to pass data and functionality from one component to another.
+ props are read-only(immutable)
+----------------------------------------------------------------------------------------------------
+2.Components can specify requirements for their props, such as the types. If a requirement is not met, Vue will warn you in the browser's JavaScript console. 
+This is especially useful when developing a component that is intended to be used by others.
+
+To specify prop validations, you can provide an object with validation requirements to the props option, instead of an array of strings. 
+
+props: {
+    propC: {
+      type: String,
+      required: true
+    }
+}
+
+3.v-if#
+The directive v-if is used to conditionally render a block. 
+The block will only be rendered if the directive's expression returns a truthy value.
+
